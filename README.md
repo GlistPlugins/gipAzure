@@ -1,5 +1,5 @@
 # gipAzure
-Azure storage plugin for [GlistEngine](https://github.com/GlistEngine/GlistEngine).
+Azure storage component for [GlistEngine](https://github.com/GlistEngine/GlistEngine).
 ### Requirements
 - [GlistEngine](https://github.com/GlistEngine/GlistEngine).
 - Azure account or local azure storage.
