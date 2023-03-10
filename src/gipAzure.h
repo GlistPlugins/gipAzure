@@ -5,24 +5,19 @@
  *      Author: Onur Demir
  */
 
-#ifndef PLUGINS_GIPAZURE_SRC_GIPAZURE_H_
-#define PLUGINS_GIPAZURE_SRC_GIPAZURE_H_
-
+#ifndef SRC_GIPAZURE_H_
+#define SRC_GIPAZURE_H_
 
 #include <stdlib.h>
 #include <iostream>
-#include "gBasePlugin.h"
+#include "gBaseComponent.h"
 #include "gHttpFile.h"
 #include "storage_credential.h"
 #include "storage_account.h"
 #include "blob/blob_client.h"
 
 
-
-
-
-
-class gipAzure : public gBasePlugin{
+class gipAzure : public gBaseComponent{
 public:
 	gipAzure();
 	~gipAzure();
@@ -66,4 +61,4 @@ private:
 
 };
 
-#endif /* PLUGINS_GIPAZURE_SRC_GIPAZURE_H_ */
+#endif /* SRC_GIPAZURE_H_ */
